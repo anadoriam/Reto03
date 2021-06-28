@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="a583a455b0b81015402ba2271094e35245296c8d94b703fcda33369d8de847b9.html">Canon Financiero</a></span>
+                > <span class="truncate-60"><a
+                    href="b40d1c0e43683f299705c7761c6bb2f1d8e027e690b2bcd51af4ec6ba723deca.html">Funcionamiento Canon Finanicero </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 28-06-2021 16:45</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Canon Financiero </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Verificar el funcionamiento de la pantalla de simulación de Canon Financiero expuesta
+por el grupo Bancolombia - Leasing, en cuanto a la presentación de los valores calculados.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Funcionamiento Canon Finanicero
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Element should be enabled exception: The following error occurred: Expected enabled element was not enabled">
+                            Element should be enabled exception: The following error occurred: Expected enabled element was not enabled
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>The following error occurred: Expected enabled element was not enabled</pre>
+                                    </h5>
+                                    co.com.choucair.certification.reto3.tasks.Principal.performAs(Principal.java
+                                    :19) <br>
+                                    co.com.choucair.certification.reto3.stepdefinitions.CanonFinancieroStepdefinitions.anaQuiereIngrsarAlSimuladorCanonFinanciero(CanonFinancieroStepdefinitions.java
+                                    :22) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                            </div>
+
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="stacktraceModalLabel">
+                                        Caused by: org.openqa.selenium.TimeoutException
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                        <pre>Expected condition failed: waiting for By.xpath: //SPAN[@class='mat-expansion-indicator ng-tns-c18-13 ng-trigger ng-trigger-indicatorRotate ng-star-inserted'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                                    <pre>
+                                        co.com.choucair.certification.reto3.tasks.Principal.performAs(Principal.java :19) <br>
+                                        co.com.choucair.certification.reto3.stepdefinitions.CanonFinancieroStepdefinitions.anaQuiereIngrsarAlSimuladorCanonFinanciero(CanonFinancieroStepdefinitions.java :22) <br>
+                                        cucumber.runner.Runner.runPickle(Runner.java :80) <br>
+                                    </pre>
+                                </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource3032612849799823179.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="5589bb0486353ece9502a74fe57243934032d4531d1b65fc2c19728c76e21489.png" title="Ana opens the Bancolombia page" width="1366"/>
+                <img src="f68bba5fddb7a3c3cd1d5e4faa14a193aaebf3e8e09c2f2ff985d62322465148.png" title="Ana clicks on seleccionar el menu producto" width="1366"/>
+                <img src="2b7faf8e54fe3357d553c6e3cfd0fa60ac2119289894c5e4d2bda836d6c035df.png" title="Ana clicks on elejir producto leasing" width="1366"/>
+                <img src="92685e6ce853a6a2957d337e81528a0b9d94e2701630792bd06929ddd1e65691.png" title="Ana clicks on seleccionar la opcion Leasing Habitacional" width="1366"/>
+                <img src="d65e8b82c37242d579f13b42a86ae76b252b484e8a9b43985f7a03f653db3f1f.png" title="Ana clicks on Seleccione en la barra Simula" width="1366"/>
+                <img src="b95f6533d04ea4c7700255741926ce840d298a0d623d9e20011488a86fb7ca9b.png" title="Ana clicks on seleccionar segun el valor de la vivienda" width="1366"/>
+                <img src="4700630d67fbbdc5df66940e99a49a77650088ca6e2a225d53405380c3c52704.png" title="Ana enters '300000000' into digite el valor de la vivienda" width="1366"/>
+                <img src="15672293aee4bde49f60a5a96bafe265c4a3fd81600203d89c97eae5478973df.png" title="Ana clicks on click para ver los porcentajes sujeridos" width="1366"/>
+                <img src="2514788cf812f4e53a87ea2e62fa7b10c7944c09b3908c95bed4604fcbc1c2e4.png" title="Ana clicks on seleccione el porcentaje que necesita (Mnor a 80% y mayor al 1%)" width="1366"/>
+                <img src="06036c0480ce75a72520da25284b92406a32700089ee32484b20c2b7c0dfa387.png" title="Ana enters '20' into tiempo para pagar la cuota (Mayor a 5 a&ntilde;os y menor a 20 a&ntilde;os)" width="1366"/>
+                <img src="9688bf2fb84ed6bf09bfa79fd851769b68aec061bea7b81c8b708fa544e65b2a.png" title="Ana clicks on Click en el campo Fecha" width="1366"/>
+                <img src="a5ce549c2931668aaad902d57217cc86ac15e13f7c0bebd576526d2d18f4439d.png" title="Ana clicks on  click en el a&ntilde;o de naciemiento" width="1366"/>
+                <img src="3f90625af909a9366c9f4d044b5a3f0bcf0125bf23d6ba885b3404c70db9e682.png" title="Ana clicks on  click en el mes de nacimiento" width="1366"/>
+                <img src="2f36958eb9cd28da856da1637858ef077f22b47f90a7039eab70a3bd89991075.png" title="Ana clicks on  Click en el dia de nacimiento" width="1366"/>
+                <img src="006d853ccb6141ade15984ad57f40dbe9f8a8a1ab080a030babbf57bbfb50ffd.png" title="Ana clicks on Seleccione el boton simular" width="1366"/>
+                <img src="6232d6f027c72132198a682fe3ee0e1b1a6653432bdaf6e0d3e88f09d993609a.png" title="Ana clicks on click para verificar los datos: <span class='failing-color'>FAILURE</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+co/com/choucair/certification/reto3/runners/RunnerTags.java
+ co.com.choucair.certification.reto3.runners.RunnerTags
+co/com/choucair/certification/reto3/stepdefinitions/CanonFinancieroStepdefinitions.java
+ co.com.choucair.certification.reto3.stepdefinitions.CanonFinancieroStepdefinitions
